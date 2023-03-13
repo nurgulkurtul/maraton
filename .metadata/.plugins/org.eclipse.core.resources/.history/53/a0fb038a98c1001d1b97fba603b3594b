@@ -1,0 +1,57 @@
+package Soru4;
+
+import java.util.HashMap;
+
+public class BusinessYolcuSinifi extends Yolcu {
+	
+	private final int BUSINESSFIYAT = 200;
+	private final int BUSINESSVIPFIYAT = 150;
+	
+	HashMap <String, Integer> biletler;
+	private boolean vipMi;
+
+	public BusinessYolcuSinifi(String id, String ad, String soyad, boolean vipMi) {
+		super(id, ad, soyad);
+		this.vipMi=vipMi;
+		this.biletler=new HashMap<>();
+	}
+
+	@Override
+	public void yolcuBilgileriniGetir() {
+		System.out.println("Busines Yolcusu "+getAd()+" Biletleri "+biletler );
+		
+	}
+
+	@Override
+	public void biletAl(FirmaAdi firmaAdi) {
+		int fiyat;
+		if (vipMi) {
+			fiyat = BUSINESSFIYAT + BUSINESSVIPFIYAT + getBASEFIYAT();
+			biletler.put(firmaAdi.toString(), fiyat);
+			System.out.println(getAd() + " Adlı  yolcu " + firmaAdi.toString() + " için VIP bilet alınmıştır Biletleriniz -->"
+					+ biletler);
+		} else {
+			fiyat = BUSINESSFIYAT + getBASEFIYAT();
+			biletler.put(firmaAdi.toString(), fiyat);
+			System.out.println(getAd() + " Adlı  yolcu " + firmaAdi.toString() + " için bilet alınmıştır Biletleriniz -->"
+					+ biletler);
+		}
+		
+		
+	}
+		
+
+
+	@Override
+	public void checkInYap() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void ucagaBin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

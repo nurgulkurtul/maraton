@@ -1,0 +1,23 @@
+package Soru3;
+
+public class Kartenkele extends Surungen{
+
+	public Kartenkele(String ad, int kilo, int uzunluk, Boolean tehlikeliMi) {
+		super(ad, kilo, uzunluk, tehlikeliMi);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void surun() {
+		System.out.println( "isimli kertenkele sürünüyor");
+	
+		
+	}
+
+	@Override
+	public void sesCikar() {
+		System.out.println("");
+		
+	}
+
+}

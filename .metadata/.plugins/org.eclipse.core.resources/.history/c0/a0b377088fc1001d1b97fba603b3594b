@@ -1,0 +1,24 @@
+package Soru3;
+
+public class Aslan extends MemeliHayvan{
+
+	public Aslan(String ad, int kilo, int uzunluk, Boolean tehlikeliMi) {
+		super(ad, kilo, uzunluk, tehlikeliMi);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void yuru() {
+		System.out.println(this.getAd() + "isimli aslan yürüyor");
+		
+	}
+
+	@Override
+	public void sesCikar() {
+
+		System.out.println("kükreme");
+		
+	}
+
+	
+}

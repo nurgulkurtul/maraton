@@ -1,0 +1,11 @@
+package Soru3;
+
+public class Kartenkele extends Surungen{
+
+	@Override
+	public void surun() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

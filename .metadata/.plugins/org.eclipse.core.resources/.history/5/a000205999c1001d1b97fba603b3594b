@@ -1,0 +1,39 @@
+package Soru4;
+
+import java.util.HashMap;
+
+public class EkonomiYolcu extends Yolcu {
+	
+	private final int EKONOMIFIYAT = 100;
+	HashMap<String, Integer> biletler;
+
+	public EkonomiYolcu(String id, String ad, String soyad) {
+		super(id, ad, soyad);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void yolcuBilgileriniGetir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void biletAl(FirmaAdi firmaAdi) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void checkInYap() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void ucagaBin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package Soru2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		CustomStringTR metin= new CustomStringTR("metin");
+		
+		
+		System.out.println(metin.uzunluk());
+		System.out.println(metin.buyukHarfYap());
+		System.out.println(metin.kucukHarfYap());
+		System.out.println(metin.karakter(5));
+		
+		}
+
+}

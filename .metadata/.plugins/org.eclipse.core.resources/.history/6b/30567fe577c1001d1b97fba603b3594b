@@ -1,0 +1,37 @@
+package Soru1;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class RehbereYazdir {
+
+	public static void main(String[] args) {
+	
+		KisiBilgileri kisi1= new KisiBilgileri("Ayşe", "Koşar", "Ankara", "5556662233");
+		KisiBilgileri kisi2= new KisiBilgileri("osman", "Koşar", "Ankara", "5556662233");
+		KisiBilgileri kisi3= new KisiBilgileri("Oya", "Koşar", "Ankara", "5556662233");
+		KisiBilgileri kisi4= new KisiBilgileri("Işık", "Koşar", "Ankara", "5556662233");
+		KisiBilgileri kisi5= new KisiBilgileri("Yağız", "Koşar", "Ankara", "5556662233");
+		
+		
+		
+		ArrayList<KisiBilgileri> rehber=new ArrayList<>();
+		rehber.add(kisi1);
+		rehber.add(kisi2);
+		rehber.add(kisi3);
+		rehber.add(kisi4);
+		rehber.add(kisi5);
+		
+		
+		try {
+			BufferedWriter writer =new BufferedWriter(new FileWriter("rehber.txt", true));
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+	}
+
+}

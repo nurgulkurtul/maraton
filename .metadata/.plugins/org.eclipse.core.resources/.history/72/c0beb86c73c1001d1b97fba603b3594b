@@ -1,0 +1,10 @@
+package nurgulkurtul;
+
+public class KisiBİlgileri {
+	
+	private String ad;
+	private String soyad;
+	private String adres;
+	private int tel;
+
+}

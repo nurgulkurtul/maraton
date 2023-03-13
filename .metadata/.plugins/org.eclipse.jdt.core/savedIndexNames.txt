@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\90551\Desktop\Maraton\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2191198934.index
+462576492.index
+1821731834.index
+4075945561.index

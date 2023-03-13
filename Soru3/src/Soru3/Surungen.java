@@ -1,0 +1,16 @@
+package Soru3;
+
+public abstract class Surungen extends Hayvan {
+
+	private String cins="surungen hayvan";
+	public Surungen(String ad, int kilo, int uzunluk) {
+		super(ad, kilo, uzunluk);
+		this.cins=cins;
+		// TODO Auto-generated constructor stub
+	}
+
+	public abstract void surun();
+	public String cins() {
+		return cins;
+	}
+}

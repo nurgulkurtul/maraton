@@ -1,0 +1,10 @@
+package Soru4;
+
+public class EkonomiYolcu extends Yolcu {
+
+	public EkonomiYolcu(String id, String ad, String soyad, int koltukNo, boolean checkIn) {
+		super(id, ad, soyad, koltukNo, checkIn);
+		// TODO Auto-generated constructor stub
+	}
+
+}

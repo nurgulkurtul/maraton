@@ -1,0 +1,5 @@
+package Soru4;
+
+public abstract class Yolcu {
+
+}

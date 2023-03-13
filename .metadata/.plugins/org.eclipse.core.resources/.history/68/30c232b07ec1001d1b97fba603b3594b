@@ -1,0 +1,31 @@
+package Soru2;
+
+public class CustomStringTR {
+
+	private String metin;
+	
+	
+	
+	public CustomStringTR(String metin) {
+		super();
+		this.metin = metin;
+	}
+
+
+
+	public int uzunluk() {
+		int uzunluk=metin.length();
+		
+		return uzunluk;
+	}
+	
+	public String buyukHarfYap() {
+		String buyukHarf=metin.toUpperCase();
+		return buyukHarf;
+	}
+	
+	public String kucukHarfYap() {
+		String kucukHarf=metin.toLowerCase();
+		return kucukHarf;
+	}
+}

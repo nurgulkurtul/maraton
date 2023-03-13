@@ -1,0 +1,14 @@
+package Soru2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		CustomStringTR metin= new CustomStringTR("metin");
+		metin.uzunluk();
+		
+		
+		
+		}
+
+}

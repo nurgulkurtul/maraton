@@ -1,0 +1,12 @@
+package Soru3;
+
+public abstract class Hayvan {
+
+	private String ad;
+	private int kilo;
+	private int uzunluk;
+	private Boolean tehlikeliMi;
+	
+	
+	
+}

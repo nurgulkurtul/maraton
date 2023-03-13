@@ -1,0 +1,11 @@
+package Soru3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		HayvanatBahcesi hayvanatBahcesi=new HayvanatBahcesi();
+		Aslan aslan=new Aslan("simba", 100, 120);
+
+	}
+
+}

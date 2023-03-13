@@ -1,0 +1,34 @@
+package Soru4;
+
+public class BusinessYolcuSinifi extends Yolcu {
+
+	public BusinessYolcuSinifi(String id, String ad, String soyad, int koltukNo, boolean checkIn) {
+		super(id, ad, soyad, koltukNo, checkIn);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void yolcuBilgileriniGetir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void biletAl(FirmaAdi firmaAdi) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void checkInYap() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void ucagaBin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

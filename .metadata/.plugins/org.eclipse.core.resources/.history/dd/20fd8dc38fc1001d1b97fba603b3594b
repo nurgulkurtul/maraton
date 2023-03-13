@@ -1,0 +1,59 @@
+package Soru3;
+
+import java.util.HashMap;
+
+public class HayvanatBahcesi {
+	
+	
+	
+	HashMap<String, Hayvan> hayvanListesi=new HashMap<>();
+	
+	
+	public void bahceyeMemeliHayvanEkle(MemeliHayvan m) {
+		
+			hayvanListesi.put(m.getAd(), m);
+	}
+	
+	public void bahceyeSurungenEkle(Surungen s) {
+		
+		hayvanListesi.put(s.getAd(), s);
+	}
+	
+	public void hayvanSesCikarsin(Hayvan h) {
+		h.sesCikar();
+	}
+
+	public void hayvaninCinsiniBul(String hayvanAdi){
+		if(hayvanListesi.get(hayvanAdi) != null) {
+			System.out.println();
+		}
+	}
+	
+	public void hayvaninBilgileriniYazdir(String hayvanAdi){
+		hayvanListesi.get(hayvanAdi);
+	}
+	
+	public void hayvaniHareketEttir(String hayvanAdi){
+		if(hayvanAdi.equals("aslan")) {
+			Aslan hareket=(Aslan) hayvanListesi.get(hayvanAdi);
+			hareket.yuru();
+		}
+		else if( hayvanAdi.equals("maymun")) {
+			Maymun hareket=(Maymun) hayvanListesi.get(hayvanAdi);
+			hareket.yuru();
+
+		}
+		else if( hayvanAdi.equals("yılan")) {
+			Yilan hareket=(Yilan) hayvanListesi.get(hayvanAdi);
+			hareket.surun();
+
+		}
+		else if( hayvanAdi.equals("kertenkele")) {
+			Kertenkele hareket=(Kertenkele) hayvanListesi.get(hayvanAdi);
+			hareket.surun();
+
+		}
+	}
+
+	
+}

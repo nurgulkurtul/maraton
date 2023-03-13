@@ -1,0 +1,17 @@
+package Soru3;
+
+public class Yilan extends Surungen {
+
+	@Override
+	public void surun() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sesCikar() {
+		System.out.println("tıss");
+		
+	}
+
+}

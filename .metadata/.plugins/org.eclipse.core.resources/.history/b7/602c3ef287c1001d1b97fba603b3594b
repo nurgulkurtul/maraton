@@ -1,0 +1,12 @@
+package Soru3;
+
+public class Aslan extends MemeliHayvan{
+
+	@Override
+	public void yuru() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

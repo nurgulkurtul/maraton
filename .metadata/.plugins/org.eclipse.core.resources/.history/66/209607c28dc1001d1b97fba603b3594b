@@ -1,0 +1,39 @@
+package Soru3;
+
+import java.util.HashMap;
+
+public class HayvanatBahçesi {
+	
+	
+	HashMap<String, Hayvan> hayvanListesi=new HashMap<>();
+	
+	
+	public void bahceyeMemeliHayvanEkle(MemeliHayvan m) {
+		
+			hayvanListesi.put(m.getAd(), m);
+	}
+	
+	public void bahceyeSurungenEkle(Surungen s) {
+		
+		hayvanListesi.put(s.getAd(), s);
+	}
+	
+	public void hayvanSesCikarsin(Hayvan h) {
+		h.sesCikar();
+	}
+
+	public void hayvaninCinsiniBul(String hayvanAdi){
+		if(hayvanListesi.get(hayvanAdi) != null) {
+			System.out.println();
+		}
+	}
+	
+	public void hayvaninBilgileriniYazdir(String hayvanAdi){
+		hayvanListesi.get(hayvanAdi);
+	}
+	
+	public void hayvaniHareketEttir(String hayvanAdi){
+		
+	}
+	
+}

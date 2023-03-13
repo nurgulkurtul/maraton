@@ -1,0 +1,19 @@
+package Soru3;
+
+public class Aslan extends MemeliHayvan{
+
+	@Override
+	public void yuru() {
+		System.out.println(Hayvan.getad() + "isimli aslan yürüyor");
+		
+	}
+
+	@Override
+	public void sesCikar() {
+
+		System.out.println("kükreme");
+		
+	}
+
+	
+}

@@ -1,0 +1,29 @@
+package Soru3;
+
+public class HayvanatBahçesi {
+	
+	public void bahceyeMemeliHayvanEkle(MemeliHayvan m) {
+		
+	}
+	
+	public void bahceyeSurungenEkle(Surungen s) {
+		
+	}
+	
+	public void hayvanSesCikarsin(Hayvan h) {
+		
+	}
+
+	public void hayvaninCinsiniBul(String hayvanAdi){
+		
+	}
+	
+	public void hayvaninBilgileriniYazdir(String hayvanAdi){
+		
+	}
+	
+	public void hayvaniHareketEttir(String hayvanAdi){
+		
+	}
+	
+}
